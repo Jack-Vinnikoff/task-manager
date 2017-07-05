@@ -1,0 +1,82 @@
+body {
+    background-color: #fafafa;
+
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+
+
+li{
+    padding: 0;
+    margin-top: 10px;
+}
+
+
+.edit:hover{
+    color: white;
+    background: #A9A9A9;
+    cursor:pointer;
+}
+
+.edit{
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    user-select: none;
+    padding: .2em 2em;
+    outline: none;
+    border: 1px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+
+}
+
+.delete:hover{
+    color: white;
+    background: rgb(212,75,56);
+    cursor:pointer;
+}
+
+
+.delete{
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    border: 1px solid;
+    background-color: white;
+    user-select: none;
+    padding: .2em 2em;
+    outline: none;
+    transition: 0.2s;
+}
+
+.todo-item{
+    list-style-type: none;
+
+}
+
+.done{
+    text-decoration:line-through;
+    color: #666666;
+}
+.todo-item .textfield {
+
+    display: none;
+}
+
+
+
+.todo-item.edeting .textfield {
+    display: block;
+
+}
+.todo-item.editing .title {
+    display: none;
+}
